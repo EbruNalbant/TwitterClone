@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X | Login</title>
+    <link rel="stylesheet" href="scss/style.css" />
+    <!--Bootstrap link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="auth-page">
+    <!--form area-->
+    <form id="login">
+      <img src="images/x-logo.png" />
+      <!--name part-->
+      <div>
+        <label>Name</label>
+        <input id="name" class="form-control" type="text" />
+        <div class="name-warning mt-4"></div>
+      </div>
+      <!--password part-->
+      <div>
+        <label>Password</label>
+        <input id="pass" class="form-control" type="password" />
+        <div class="pass-warning mt-4"></div>
+      </div>
+      <!--button part-->
+      <button>Login</button>
+    </form>
+    <!--Script link-->
+    <script type="module" src="scripts/auth.js"></script>
+  </body>
+</html>
